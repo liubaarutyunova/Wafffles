@@ -1,0 +1,345 @@
+@media (max-width: 306px) {
+  header nav#nav-1 ul {
+    display: none;
+  }
+}
+
+@media (max-width: 409px) {
+/****************************
+GENERAL
+****************************/
+
+/****************************
+PAGE: ABOUT
+****************************/
+
+/*FLEXBOX for values*/
+
+	.coreValueText {
+		font-size: 2em; /*24/12*/
+	}
+
+  .value h2 {
+	font-size: 0.8em;
+	}
+
+  .value p {
+    display: none;
+  }
+
+  .value img {
+    width: 110%;
+  }
+
+
+	/*TEAM*/
+
+/****************************
+PAGE: QUESTIONS
+****************************/
+
+.faq h1 {
+	font-size: 2.3333333333em; /*28/12*/
+	}
+
+}
+
+
+@media screen and (max-width: 680px) {
+
+/****************************
+GENERAL
+****************************/
+
+  body {
+    font-size: 0.8em;
+  }
+
+  .blank {
+    margin: 0;
+    box-shadow: 0 0 0px rgba(0,0,0,0);
+  }
+
+  .articleActual {
+    width: 85%;
+  }
+
+  .articleActual p {
+    font-size: 1.6em; /*18/12*/
+    width: 100%;
+  }
+
+  .articleActual_poinzt {
+    font-size: 3em;
+  }
+
+/****************************
+HEADER
+****************************/
+
+  #nav-1 {
+    width: 220px;
+  }
+
+  nav#nav-1 ul a {
+    padding-top: 24px;
+    padding-bottom: 20px;
+    height: 19px;
+    width: 70px;
+  }
+
+  a.logo img.logo {
+    margin-left: 5%;
+  }
+
+  #nav-1 {
+    margin-right: 5%;
+  }
+
+/*
+ .home {
+    display: none;
+  }
+*/
+
+  #selected {
+    background-color: #191919;
+    border: 0px;
+  }
+
+/*
+  nav#nav-1 ul a:hover {
+    background-color: #191919;
+    border: none;
+  }
+
+*/
+
+
+/****************************
+FOOTER
+****************************/
+
+.footerAbout p {
+   font-size: 0.8em;
+}
+
+.footer h3 {
+  font-size: 0.9em;
+}
+
+.socialMedia {
+  width: 50%;
+}
+
+.footerAbout {
+  width: 0;
+  display: none;
+}
+
+.contribute {
+    width: 50%;
+    float: right;
+}
+
+
+
+/****************************
+PAGE: HOME
+****************************/
+
+.rowofarticles {
+  margin-left: 7.5%;
+  margin-right: 7.5%;
+}
+
+.article {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	padding-bottom: 3%;
+}
+
+div.contentNav h1 {
+font-size: 2.9166666667em; /* 35/12 */
+margin-left:2%;
+margin-right: 2%;
+}
+
+.notWideImg {
+  width: 110%;
+}
+
+.notWideImgExpA1 {
+	width: 110%;
+}
+
+.notWideImgExpA3 {
+	width: 110%;
+}
+
+.notWideImgOpA1 {
+	width: 110%;
+}
+
+.imgWithoutQuote p {
+  font-size: 0.1em;
+}
+
+/****************************
+PAGE: ABOUT
+****************************/
+
+
+/*FLEXBOX for comics*/
+
+.column img {
+    width: 70%;
+  }
+
+.row {
+		margin-left: 1%;
+		margin-right: 1%;
+	}
+
+.column p {
+		font-size: 14pt;
+	}
+
+	.topicofcomics {
+    font-size: 1em;
+  }
+
+  .faq {
+    width: 90%;
+  }
+  .comics {
+    width: 100%;
+  }
+
+  .main-photo {
+    padding-top: 20px;
+  }
+
+  .overlay-content {
+  width: 280px;
+  }
+
+  .main-photo__title {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .main-photo__subtitle {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+  .main-photo__author {
+    margin-left: 7%;
+    margin-right: 7%;
+  }
+
+}
+
+
+@media (min-width: 681px) {
+
+/****************************
+PAGE: HOME
+****************************/
+
+  .rowofarticles {
+    display: flex;
+  }
+
+	.article {
+	flex: 1;
+	display: flex;
+	flex-direction: column;
+	}
+
+	.button {
+	margin-top: auto;
+	align-self: flex-start;
+	}
+
+}
+
+
+@media (min-width: 410px) and (max-width: 900px) {
+
+/****************************
+PAGE: ABOUT
+****************************/
+
+/*FLEXBOX for comics*/
+
+  .column img {
+    width: 50%;
+  }
+
+	.column p {
+		font-size: 15pt;
+	}
+
+	.row {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+
+  /****************************
+  PAGE: QUESTIONS
+  ****************************/
+   .value {
+     margin-left: auto;
+     margin-right: auto;
+     width: 50%;
+  	}
+
+  	.value h2 {
+  	font-size: 1.2em;
+  	}
+
+  	.value img {
+  		width: 100%;
+  	}
+
+    .value p {
+      display: none;
+    }
+
+
+}
+@media (min-width: 1100px) {
+
+/****************************
+PAGE: ABOUT
+****************************/
+
+
+/*FLEXBOX for comics*/
+
+  .row {
+    display: flex;
+  }
+}
+
+
+@media (max-width: 890px) {
+#members {
+  flex-wrap: wrap;
+}
+
+.member {
+  flex: 2;
+  margin-bottom: 5%;
+  margin-left: 4%;
+  margin-right: 4%;
+}
+
+.face img {
+  width: 70%;
+ }
+}

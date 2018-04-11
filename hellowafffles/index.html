@@ -1,0 +1,64 @@
+
+	<title>Wafffles</title>
+  <style>
+	*{
+		padding: 0;
+		margin: 0;
+	}
+	html{
+		height: 100%;
+	}
+	html, body{
+		height: 100%;
+		min-height: 100%;
+	}
+	body{
+		font-family: 'Menlo Regular', 'Consolas', monospace;
+		background-color: #272a37;
+		color: #ea3953;;
+		font-size: 12px;
+		font-weight: bold;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+	}
+	.typed-cursor{
+	    opacity: 1;
+	    -webkit-animation: blink 0.7s infinite;
+	    -moz-animation: blink 0.7s infinite;
+	    animation: blink 0.7s infinite;
+	}
+	.typed-element{
+		font-size: inherit;
+	}
+	@keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-webkit-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	@-moz-keyframes blink{
+	    0% { opacity:1; }
+	    50% { opacity:0; }
+	    100% { opacity:1; }
+	}
+	</style>
+
+</head>
+
+<body>
+	<h1 class="typed-element"></h1>
+ 	<script src="./js/typed.js"></script>
+	<script>
+	  document.addEventListener('DOMContentLoaded', function(){
+	      Typed.new('.typed-element', {
+	        strings: ["Dear Wafffles, here comes my story..."],
+	        typeSpeed: 25,
+	        loop: true
+	      });
+	  });
+	</script>
